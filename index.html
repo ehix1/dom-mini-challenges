@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <main>
+      <section class="vending-machine">
+        <p class="total">Total: $0.00</p>
+        <div>
+          <button class="cola">Lime Cola $2.00</button>
+          <button class="peanuts">Salted Peanuts $3.00</button>
+          <button class="chocolate">Chocolate Bar $4.00</button>
+          <button class="gummies">Fruit Gummies $6.00</button>
+        </div>
+      </section>
+      <section class="make-money">
+        <form class="form">
+          <input type="number" name="howMany" id="howMany" />
+          <select name="type" id="type">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+          </select>
+          <button>add</button>
+        </form>
+        <div class="coin-container"></div>
+      </section>
+      <section class="lightbulb-container">
+        <div class="lightbulb"><p>Lightbulb</p></div>
+        <button class="on light-switch">On</button>
+        <button class="off light-switch">Off</button>
+        <button class="toggle light-switch">Toggle</button>
+        <button class="end light-switch">End</button>
+      </section>
+    </main>
     <!-- keep script at the bottom -->
     <script src="/script.js"></script>
   </body>
